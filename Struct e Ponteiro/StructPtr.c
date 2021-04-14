@@ -19,6 +19,12 @@ struct estudante stud1, *ptr_stud1;
 ptr_stud1=&stud1;
 printf("\n Entre com numero matricula");
 scanf("%d", &ptr_stud1->nMatricula);
+printf("\n Entre com nome");
+scanf("%s", &ptr_stud1->nome);
+printf("\n Entre com numero mensalidade");
+scanf("%f", &ptr_stud1->vMensalidade);
+printf("\n Entre Data");
+scanf("%s", &ptr_stud1->dataBacharelado);
 
   return 0;
 }
